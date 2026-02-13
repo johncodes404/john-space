@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="container">
       <header>
-        <h1>Jayden's Space</h1>
+        <h1>John's Space</h1>
         <p className="subtitle">深度思考 | 终身学习 | 现实主义</p>
       </header>
       
