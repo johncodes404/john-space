@@ -1,0 +1,41 @@
+/* 容器：限制最大宽度，防止在大屏幕上太散 */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left; /* 你的文字要左对齐，显得更严肃专业 */
+}
+
+/* 头部区域 */
+header {
+  margin-bottom: 4rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 2rem;
+}
+
+.subtitle {
+  color: var(--text-dim);
+  font-size: 1.2rem;
+  margin-top: -1rem;
+}
+
+/* 卡片设计：微弱的边框，深邃的背景 */
+.card {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: 12px;
+  margin-bottom: 1.5rem;
+  border: 1px solid #333;
+  transition: transform 0.2s; /* 动效预埋 */
+}
+
+/* 鼠标悬停时，卡片微微上浮，给你一种“可交互”的暗示 */
+.card:hover {
+  transform: translateY(-5px);
+  border-color: var(--accent);
+}
+
+h2 {
+  color: var(--accent);
+  margin-top: 0;
+}

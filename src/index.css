@@ -1,0 +1,28 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.6;
+  font-weight: 400;
+  
+  /* 定义你的专属色盘：黑客绿配深灰 */
+  --bg-color: #0f0f0f;
+  --text-main: #e0e0e0;
+  --text-dim: #888888;
+  --accent: #10b981; /* 这是一个充满希望的绿色 */
+  --card-bg: #1a1a1a;
+  
+  color: var(--text-main);
+  background-color: var(--bg-color);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
